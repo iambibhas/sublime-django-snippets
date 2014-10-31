@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+${1:from django.db.models.signals import post_save}
+@receiver(${2:post_save}, sender='${3:appname.ModelName}')
+def ${4:after_save}(sender, **kwargs):
+    pass
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>signal</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

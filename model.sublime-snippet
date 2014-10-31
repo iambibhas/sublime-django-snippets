@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+class ${1:ModelName}(${2:models.Model}):
+    ${3:name} = models.${4:Field}(${5})
+
+    def __str__(self):
+        return self.${3:name}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>model</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>
